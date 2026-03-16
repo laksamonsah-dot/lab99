@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MovieWorld</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Fontawesome -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top"></body>
+<body>
+
+<!-- ===== Navbar ===== -->
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+<div class="container">
+
+<a class="navbar-brand" href="#top">🎬 MovieWorld</a>
+
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ภาพยนตร์</a>
+
+<ul class="dropdown-menu">
+<li><a class="dropdown-item">War Machine</a></li>
+<li><a class="dropdown-item">Ice Road: Vengeance</a></li>
+<li><a class="dropdown-item">The Conjuring: Last Rites</a></li>
+</ul>
+
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#about">เกี่ยวกับเรา</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#contact">ติดต่อเรา</a>
+</li>
+
+</ul>
+
+</div>
+</div>
+</nav>
+
+
+
+<!-- ===== Banner ===== -->
+
+<section class="banner">
+
+<div class="banner-content">
+
+<h1>Movie World</h1>
+<p>โลกแห่งภาพยนตร์ที่คุณไม่ควรพลาด</p>
+
+<a href="#movies" class="btn btn-purple">ดูภาพยนตร์</a>
+
+</div>
+
+</section>>
+
+
+
+<!-- ===== Movie Cards ===== -->
+
+<section id="movies" class="container my-5">
+
+<h2 class="text-center mb-4 section-title">ภาพยนตร์แนะนำ</h2>
+
+<div class="row">
+
+<!-- Movie 1 -->
+<div class="col-md-4 mb-4">
+<div class="card movie-card">
+
+<img src="images/movie1.jpg" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>War Machine</h5>
+
+<button class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#m1">
+ดูรายละเอียด
+</button>
+
+</div>
+</div>
+</div>
+
+
+<!-- Movie 2 -->
+<div class="col-md-4 mb-4">
+<div class="card movie-card">
+
+<img src="images/movie2.jpg" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>Ice Road: Vengeance</h5>
+
+<button class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#m2">
+ดูรายละเอียด
+</button>
+
+</div>
+</div>
+</div>
+
+
+
+<!-- Movie 3 -->
+<div class="col-md-4 mb-4">
+<div class="card movie-card">
+
+<img src="images/movie3.jpg" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>The Conjuring: Last Rites</h5>
+
+<button class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#m3">
+ดูรายละเอียด
+</button>
+
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+
+
+<!-- ===== Modal Movie 1 ===== -->
+
+<div class="modal fade" id="m1">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+
+<div class="modal-header">
+<h5 class="modal-title">War Machine</h5>
+<button class="btn-close" data-bs-dismiss="modal"></button>
+</div>
+
+<div class="modal-body text-center">
+
+<img src="images/movie1.jpg" class="img-fluid mb-3">
+
+<p><b>ผู้กำกับ:</b> David Michôd</p>
+
+<p><b>นักแสดงนำ:</b> Alan Ritchson , Dennis Quaid, Stephan James</p>
+
+<p><b>เนื้อเรื่องย่อ:</b>
+เรื่องราวของหน่วยเรนเจอร์ที่กำลังฝึกหนักเพื่อคัดเลือก แต่กลับต้องเผชิญหน้ากับศัตรูที่ไม่คาดฝัน 
+นั่นคือจักรกลสังหารจากต่างดาวที่ตกลงมาในพื้นที่ภารกิจ</p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+<!-- ===== Modal Movie 2 ===== -->
+
+<div class="modal fade" id="m2">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+
+<div class="modal-header">
+<h5 class="modal-title">Ice Road: Vengeance</h5>
+<button class="btn-close" data-bs-dismiss="modal"></button>
+</div>
+
+<div class="modal-body text-center">
+
+<img src="images/movie2.jpg" class="img-fluid mb-3">
+
+<p><b>ผู้กำกับ:</b> Jonathan Hensleigh</p>
+
+<p><b>นักแสดงนำ:</b> Liam Neeson, Fan Bingbing , Marcus Thomas</p>
+
+<p><b>เนื้อเรื่องย่อ:</b>
+คนขับรถบรรทุกต้องขับผ่านถนนน้ำแข็งที่อันตราย
+เพื่อช่วยเหลือคนงานเหมืองที่ติดอยู่
+</p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+<!-- ===== Modal Movie 3 ===== -->
+
+<div class="modal fade" id="m3">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+
+<div class="modal-header">
+<h5 class="modal-title">The Conjuring: Last Rites</h5>
+<button class="btn-close" data-bs-dismiss="modal"></button>
+</div>
+
+<div class="modal-body text-center">
+
+<img src="images/movie3.jpg" class="img-fluid mb-3">
+
+<p><b>ผู้กำกับ:</b> Michael Chaves</p>
+
+<p><b>นักแสดงนำ:</b> Vera Farmiga, Patrick Wilson</p>
+
+<p><b>เนื้อเรื่องย่อ:</b>
+เอ็ดและลอร์เรน วอร์เรน ต้องเผชิญกับคดีเหนือธรรมชาติครั้งใหม่
+ที่เต็มไปด้วยความลึกลับและความสยองขวัญ
+</p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+<!-- ===== About ===== -->
+
+<section id="about" class="container my-5">
+
+<h2 class="text-center section-title">เกี่ยวกับเรา</h2>
+
+<p class="text-center">
+
+MovieWorld เป็นเว็บไซต์ตัวอย่างสำหรับแสดงข้อมูลภาพยนตร์
+ผู้ใช้สามารถค้นหาภาพยนตร์ที่น่าสนใจ
+และดูรายละเอียดเกี่ยวกับนักแสดง ผู้กำกับ และเนื้อเรื่องได้
+
+</p>
+
+</section>
+
+
+
+<!-- ===== Contact ===== -->
+
+<section id="contact" class="container my-5">
+
+<h2 class="text-center section-title">ติดต่อเรา</h2>
+
+<div class="row justify-content-center">
+
+<div class="col-md-6">
+
+<form class="contact-form">
+
+<div class="mb-3">
+<label>ชื่อ-นามสกุล</label>
+<input type="text" class="form-control">
+</div>
+
+<div class="mb-3">
+<label>อีเมล</label>
+<input type="email" class="form-control">
+</div>
+
+<div class="mb-3">
+<label>ข้อความ</label>
+<textarea class="form-control"></textarea>
+</div>
+
+<button class="btn btn-purple w-100">ส่งข้อมูล</button>
+
+</form>
+
+</div>
+</div>
+</section>
+
+
+
+<!-- ===== Footer ===== -->
+
+<footer class="footer">
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-md-4">
+<h5>MovieWorld</h5>
+<p>เว็บไซต์แนะนำภาพยนตร์และข่าวสารวงการภาพยนตร์</p>
+</div>
+
+<div class="col-md-4">
+<h5>เมนู</h5>
+<a href="#">หน้าแรก</a>
+<a href="#">ภาพยนตร์</a>
+<a href="#">เกี่ยวกับเรา</a>
+<a href="#">ติดต่อเรา</a>
+</div>
+
+<div class="col-md-4">
+
+<h5>ติดตามเรา</h5>
+
+<div class="social-icons">
+
+<a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+<a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+<a href="https://line.me"><i class="fab fa-line"></i></a>
+
+</div>
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="text-center">
+© 2025 Movie By 68023916
+</p>
+
+</div>
+
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

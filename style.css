@@ -1,0 +1,171 @@
+/* ===== Theme สีหลัก ===== */
+
+body{
+background:#0b0b0f;
+color:#f1f1f1;
+font-family:sans-serif;
+}
+
+/* Navbar */
+
+.navbar{
+background:linear-gradient(90deg,#1a0028,#000);
+}
+
+.navbar-brand{
+color:#c77dff !important;
+font-weight:bold;
+}
+
+
+/* Banner */
+
+.banner{
+height:100vh;
+background:url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+position:relative;
+}
+
+.banner::before{
+content:"";
+position:absolute;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.65);
+}
+
+.banner-content{
+position:relative;
+}
+
+.banner h1{
+font-size:64px;
+color:#e0aaff;
+}
+
+
+/* Section Title */
+
+.section-title{
+color:#c77dff;
+margin-bottom:30px;
+}
+
+
+/* Button */
+
+.btn-purple{
+background:#7b2cbf;
+color:white;
+border:none;
+padding:10px 25px;
+}
+
+.btn-purple:hover{
+background:#9d4edd;
+}
+
+
+/* Movie Card */
+
+.movie-card{
+background:#111;
+border:none;
+transition:0.3s;
+}
+
+.movie-card:hover{
+transform:scale(1.06);
+box-shadow:0 0 20px #7b2cbf;
+}
+
+
+/* Contact */
+
+.contact-form{
+background:#111;
+padding:25px;
+border-radius:10px;
+}
+
+.contact-form input,
+.contact-form textarea{
+background:#1a1a1a;
+border:1px solid #444;
+color:white;
+}
+
+
+/* Footer */
+
+.footer{
+background:#050505;
+padding:60px 0;
+border-top:1px solid #333;
+}
+
+.footer h5{
+color:#c77dff;
+margin-bottom:20px;
+}
+
+.footer a{
+color:#aaa;
+text-decoration:none;
+display:block;
+margin-bottom:8px;
+}
+
+.footer a:hover{
+color:white;
+}
+
+
+/* Social Icons */
+
+.social-icons a{
+font-size:28px;
+margin-right:15px;
+color:#c77dff;
+transition:0.3s;
+}
+
+.social-icons a:hover{
+color:white;
+text-shadow:
+0 0 10px #c77dff,
+0 0 20px #c77dff,
+0 0 40px #c77dff;
+transform:scale(1.2);
+}
+
+/* Modal Theme */
+
+.modal-content{
+background:#1a1a1a;
+color:#ffffff;
+border:none;
+}
+
+.modal-header{
+border-bottom:1px solid #444;
+}
+
+.modal-title{
+color:#c77dff;
+}
+
+.modal-body p{
+color:#dddddd;
+font-size:16px;
+}
+
+.btn-close{
+filter: invert(1);
+}
